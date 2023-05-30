@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'chatgptpluginretrivalcode'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3A9F6B9DE406494FB9C6949856CE430B }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
